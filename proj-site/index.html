@@ -1,0 +1,112 @@
+<!Doctype html5>
+<html>
+<html lang="pt-br">
+
+<head>
+  <title>Roda-Roda</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <script type="text/javascript" src="index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brincando com os números">
+  <meta name="keywords" content="brincadeira, crianças,aprendendo, pião,jogo da velha">
+
+</head>
+
+<body>
+  <div id="interface">
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="projeto.html" target="_blank">projeto</a></li>
+        <li><a href="brincadeiras.html" target="_blank">brincadeiras</a></li>
+        <li><a href="contato.html" target="_blank">contato</a></li>
+        <li style="float:right"><a class="active" href="sobre entidade" target="_blank">sobre entidade</a></li>
+      </ul>
+    </nav>
+    <!--aqui termina a barra de nabegação-->
+    <img src="imagem/topo1.png">
+    <section id=corpo>
+      <h1>Brincando com os números</h1>
+      <img src="imagem/brincando3.png" alt="criação de brincadeira">
+      <p>Brincar é um direito de toda criança. Devemos oferecer oportunidades para a construção do conhecimento
+        através da descoberta e da invenção, pois são indispensáveis para a participação ativa da criança no seu
+        meio.</p><br>
+
+      <div class="soma">
+        <h1>Brincando de Somar</h1>
+        <h2>Teste seu conhecimento</h2>
+        <h3>Quanto é?</h3>
+        <input class="n1" type="text"> +
+        <input class="n2" type="text">
+        <button class="click" onclick="somar()">SOMAR</button>
+        <p class="paragr1">Digite os valores na caixa acima:</p>
+        <p class="resultado1"></p>
+      </div>
+
+      <p>Quando reciclamos, nós protegemos o ambiente para nossa vida presente e futura. Através desse jogo
+        conseguimos construir o conhecimento lógico-matemático usando material concreto. Desenvolver também a
+        atenção, a concentração, a observação, o raciocínio-lógico, noções de quantidade, forma, tamanho, número
+        e representação numérica, sequência e ordem.</p>
+
+      <img src="imagem/brinc3.png" width="190" height="200" alt="brincadeira de criança">
+
+      <div class="divisao">
+        <h1>Brincando de Dividir</h1>
+        <h2>Sabendo Dividir</h2>
+        <h3>Quanto é?</h3>
+        <input class="n7" type="text"> /
+        <input class="n8" type="text">
+        <button class="click" onclick="dividir()">DIVIDIR</button>
+        <p class="paragr4">Digite os valores na caixa acima</p>
+        <p class="resultado4"></p>
+      </div>
+      <!--  <div id="res">Resultado:</div> -->
+
+    </section>
+
+    <aside id="latDireita">
+      <h1>Joagando com os números</h1>
+      <img src="imagem/numerais1.png" alt="numerais">
+      <p>Na educação infantil os jogos aparecem como aliados no processo de aprendizagem, proporcionando aos
+        alunos um pleno desenvolvimento de diversas habilidades. </p><br>
+
+      <div class="subtrai">
+        <h1>Brincando de Diminuir</h1>
+        <h2>Conhecendo a subtração</h2>
+        <h3>Quanto é?</h3>
+        <input class="n3" type="text"> -
+        <input class="n4" type="text">
+        <button class="click" onclick="subtrai()">SUBTRAIR</button>
+        <p class="paragr2">Digite os valores na caixa acima:</p>
+        <p class="resultado2"></p>
+      </div>
+
+      <P>Elas devem contar cada conjunto para saber qual numeral deve ser encaixado ao lado. Foi escolhido as
+        tampinhas de suco, pois fazemos o movimento pinça para colocar a tampa, auxiliando na coordenação motora
+        fina. Esse jogo foi confeccionado com material recicládo, enviado pelos pais. </P>
+      <figure>
+        <img src="imagem/brinc1.png" width="190" height="200" alt="brincadeira de criança">
+      </figure>
+
+      <div class="multiplica">
+        <h1>Brincando de Multiplicar</h1>
+        <h2>Multiplicando</h2>
+        <h3>Quanto é?</h3>
+        <input class="n5" type="text"> x
+        <input class="n6" type="text">
+        <button class="click" onclick="multiplicar()">MULTIPLICAR</button>
+        <p class="paragr3">Digite os valores na caixa acima</p>
+        <p class="resultado3"></p>
+    </aside>
+
+    <footer id=rodape>
+      <p>Projeto</p>
+      <p>Brincadeiras</p>
+      <p>Contato</p>
+      <p>Sobre a entidade</p>
+    </footer>
+  </div>
+</body>
+
+</html>

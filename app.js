@@ -4,7 +4,7 @@
 //01 - Crie um programa para calcular o dobro de um número.
 
     const b = parseFloat('2')
-    const c = parseInt(process.argv [2], 10)
+    const c = parseInt(process.argv[2], 10)
 
     function dobro (b, c){
         return b * c
@@ -13,8 +13,8 @@
 //-------------------------------------------------
 //02 - Escreva um algorítmo que calcule a área quadrada.
 
-    const ldo1 = parseInt (process.argv [2], 10)
-    const ldo2 = parseInt (process.argv [3], 10)
+    const ldo1 = parseInt (process.argv[2], 10)
+    const ldo2 = parseInt (process.argv[3], 10)
 
         function areaquad (ldo1, ldo2){
             return ldo1 * ldo2
@@ -34,9 +34,9 @@
  //------------------------------------------------------------      
 //04 - Faça um programa que calcule a média simples (aritmética) de 3 valores quaisquer.
 
-    const valor1 = parseFloat(process.argv [2], 10)
-    const valor2 = parseFloat(process.argv [3], 10)
-    const valor3 = parseFloat(process.argv [4], 10)
+    const valor1 = parseFloat(process.argv[2], 10)
+    const valor2 = parseFloat(process.argv[3], 10)
+    const valor3 = parseFloat(process.argv[4], 10)
 
     function media (valor1,valor2,valor3){
      var media =  (valor1 + valor2 + valor3)/3
@@ -47,7 +47,7 @@
        
 //05 - Considerando que todos os meses tenham 30 dias, calcular o total de dias de n meses.
 
-const mes = parseInt(process.argv [2], 10)
+const mes = parseInt(process.argv[2], 10)
 
 function dias (mes){
   //   30 * mes
@@ -59,7 +59,7 @@ function dias (mes){
 //06 - O custo de um carro novo ao consumidor é obtido com a seguinte fórmula: custo final = custo de fábrica + (custo de fábrica * percentual do distribuidor) +(custo de fábrica * percentual de impostos) Considerando os valores abaixo, faça um programa para calcular o custo de fabricação. Custo de fábrica = 10.000,00 Percentual do distribuidor = 28% Percentual dos Impostos  = 45%.
 
 //let custoFinal = parseInt(process.argv [3], 10)
-let custoFabr = parseInt(process.argv [4], 10)
+let custoFabr = parseInt(process.argv[4], 10)
 //let imposto = parseInt(process.argv [5], 10)
 
 function carroZero(custoFabr){
@@ -73,7 +73,7 @@ function carroZero(custoFabr){
 //Onde:J = juros,C = capital,i = taxa de empréstimo,n = períodos
 //Vamos imaginar o seguinte cenário: um empréstimo de R$ 16.000,00 sobre a taxa de 4% durante 4 meses.
 
-const capital = parseInt(process.argv [2], 10)
+const capital = parseInt(process.argv[2], 10)
 
     function emprestimo (capital){
        
@@ -83,7 +83,7 @@ const capital = parseInt(process.argv [2], 10)
 //-----------------------------------------------------------------------
 // 08 - Faça um algoritmo que calcule o reajuste de um salário, utilize os seguintes dados:salário  = 1.000,00, reajuste = 15%.
 
-var salario = parseInt (process.argv [2], 10)
+var salario = parseInt (process.argv[2], 10)
 
     function dissidio (salario){
 

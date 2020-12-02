@@ -1,26 +1,3 @@
-const express = require('express');
-const app = express();
-const funcao = require('./app.js')
-const port = 3000;
-
-app.listen(port, () => {
-    console.log(`servidor rodando na porta ${port}`)
-});
-
-// 1º - Programa que lê um número e escreve uma mensagem informando se o valor lido  é MAIOR QUE 10!  ou MENOR QUE 10!
-
-
-const num = parseInt(process.argv[2], 10);
-
-function maiormenor(num) {
-
-    if (num > 10) {
-        return (num + ' MAIOR QUE 10');
-    } else {
-        return (num + ' MENOR QUE 10');
-    }
-}
-714
 //2º - Programa que lê um número e escreve se é positivo ou negativo (considera o zero como positivo)//
 
 const num1 = parseInt(process.argv[2], 10);

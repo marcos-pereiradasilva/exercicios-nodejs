@@ -1,11 +1,6 @@
 const funcao = require('./app.js')
 let resultado = undefined
 
-//1ª questão
-
-resultado = funcao.maiormenor(45)
-msg = resultado
-console.log(msg)
 
 //--------------------------------------------------
 //2ª questão

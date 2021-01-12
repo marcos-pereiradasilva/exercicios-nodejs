@@ -2,7 +2,7 @@ const express = require('express');
 const dobro = require("./app");
 
 const app = express();
-const port = 3000
+const port = 3000;
 
 //
 // http://localhost:3000/dobro?num=4

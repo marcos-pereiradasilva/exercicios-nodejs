@@ -1,5 +1,4 @@
-
-const operacoes = require('./app.js')
+const operacoes = require('./app.js');
 
 
 let resultado = undefined

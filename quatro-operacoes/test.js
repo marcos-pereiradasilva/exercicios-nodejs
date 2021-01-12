@@ -1,15 +1,14 @@
 //
-// TODO: colocar os argumentos, exemplo:
+//  TODO: escrever as asserções
 //
-//   const num = parseInt(process.argv[2], 10);
 
 const operacoes = require('./app.js');
 
 let resultado = undefined
 
+// exemplo
 resultado = operacoes.adicionar(50, 10)
-msg = 'O resultado de 50 + 10 = ' + resultado
-console.log(msg)
+console.log(resultado == 60)
 
 resultado = operacoes.subtrair(140, 70)
 msg = 'O resultado de 140 - 70 = ' + resultado

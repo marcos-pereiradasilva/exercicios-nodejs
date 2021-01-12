@@ -9,7 +9,7 @@ const port = 3000
 //
 app.get('/he-maior-que-dez?', (req, res) => {
     res.send({
-        dobro: service.heMaiorQueDez(req.query.num)
+        result: service.heMaiorQueDez(req.query.num)
     });
 })
 

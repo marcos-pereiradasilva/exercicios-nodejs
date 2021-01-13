@@ -31,6 +31,35 @@
 			"response": []
 		},
 		{
+			"name": "Área Quadrada",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/area-quadrada?lado1=2&lado2=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"area-quadrada"
+					],
+					"query": [
+						{
+							"key": "lado1",
+							"value": "2"
+						},
+						{
+							"key": "lado2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Maior que Dez",
 			"request": {
 				"method": "GET",

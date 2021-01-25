@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "6bcf13e2-de91-4e36-b433-ea1f7c807df3",
-		"name": "MarcosProjeto",
+		"_postman_id": "9fee0e43-2348-4cc7-971c-7627d978bb21",
+		"name": "mini-projetos",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -194,6 +194,30 @@
 						{
 							"key": "b",
 							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reajuste salarial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/alt?salario=1000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"alt"
+					],
+					"query": [
+						{
+							"key": "salario",
+							"value": "1000"
 						}
 					]
 				}

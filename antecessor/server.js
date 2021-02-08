@@ -1,5 +1,5 @@
 const express = require('express')
-const antecessor = require('./app.js')
+const antecessor = require('./antsuce.js')
 const app = express()
 const port = 3000
 app.listen(port, () => {
@@ -7,5 +7,7 @@ app.listen(port, () => {
 })
 
 app.get('/antsuc?', (req, res) => {
-    res.send({ resultado: antecessor.antsuce(req.query.num1) })
+    res.send({
+        resultado: antecessor.antsuce(req.query.num1)
+    })
 })

@@ -6,4 +6,4 @@ function areaQuadrada(lado1, lado2) {
     return lado1 * lado2
 }
 
-module.exports = areaQuadrada;
+module.exports.areaQuadrada = areaQuadrada;

@@ -3,10 +3,10 @@
 //
 function heMaiorQueDez(num) {
     if (num > 10) {
-        return true;
+        return 'maior';
     } else {
-        return false;
+        return 'menor';
     }
 }
-
-exports.heMaiorQueDez = heMaiorQueDez
+//console.log(heMaiorQueDez(16))
+exports.heMaiorQueDez = heMaiorQueDez;

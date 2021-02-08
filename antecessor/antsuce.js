@@ -6,4 +6,4 @@ function antsuce(num1) {
 }
 
 //console.log(antsuce(10))
-module.exports.antsuce = antsuce
+module.exports.antsuce = antsuce;

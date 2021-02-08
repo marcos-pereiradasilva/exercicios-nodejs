@@ -1,14 +1,8 @@
 // import
-const app = require('./app.js');
+const maiorMenor = require('./maiorMenor.js');
 
-// entrada do usuário
-const num = parseInt(process.argv[2], 10);
+let num = parseInt(process.argv[2], 10);
+resultado = undefined;
 
-// processamento
-let resultado = app.heMaiorQueDez(num);
-
-if (resultado) {
-    console.log("O seu número é maior que 10");
-} else {
-    console.log("O seu número é menor que 10");
-}
+resultado = maiorMenor.heMaiorQueDez(num)
+console.log(resultado)

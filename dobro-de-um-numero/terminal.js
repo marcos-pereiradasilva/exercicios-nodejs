@@ -1,12 +1,6 @@
-const dobro = require("./app");
+const dobro = require("./dobroNumero.js");
+let num = parseInt(process.argv[2], 10);
+let resultado = undefined;
 
-// pegando o que vem do terminal
-let numeroStr = process.argv[2];
-
-// convertendo para inteiro
-let numero = parseInt(numeroStr, 10);
-
-// executando nossa função
-const resultado = dobro(numero);
-
-console.log("O dobro de " + numero +" é " + resultado);
+resultado = dobro.dobroNumero(num);
+console.log(resultado);
